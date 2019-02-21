@@ -1,4 +1,4 @@
-###**Project Description:**
+### **Project Description:**
 
 This project can take as parameter any CSV file which will be analyzed. 
 In order to make this project was used the CSVReader for parsing the file, which gave the file already splitted.
@@ -7,22 +7,23 @@ Data which correspond to all criteria are stored in _Record.db_ database in tabl
 But records that don't correspond to criteria are stored in _badData.csv_ file.
 After the process is finished a log file: _statistic.log_ is created with the main purpose to register the statistic:total number of records, number of  bad records and successful one.
 
-#####**It's important to mention that al these files are stored in _data_ folder from this project!**
+##### **It's important to mention that al these files are stored in _data_ folder from this project!**
 
-###**Setup:**
+### **Setup:**
 
 To parse the csv file, its location should be specified as parameter of _read()_method of CvsFileManager in Main.class.
 Also it's possible to change the directory of new created files:_path_ and _name_ of database can be modified in DataBaseManager.class,for log file in LoggerWriter.class and badData file in _write()_ method of CsvFileManager.class;
-###**Dependencies:**
+### **Dependencies:**
 
 Java Version : 1.8.0_201 <br/>
 SQLite Version : 3.27.1 <br/>
 Another dependencies are included in _pom.xml_ file which will be auto-imported.
-###**Run the project:**
 
-1.Download the JDK which was mentioned above;<br\>
+### **Run the project:**
+
+1.Download the JDK which was mentioned above; <br/>
 2.Open the project with an IDE and specify in Main.class the url of your csv file
-(As an example of file are included in data folder: interview.csv)<br\>
+(As an example of file are included in data folder: interview.csv) <br/>
 3.When project is built , just run the Main.class.After this you can see in console shoe information concerning database creation and if connection was established.
 At the end you will see info which were written in log file.
  
