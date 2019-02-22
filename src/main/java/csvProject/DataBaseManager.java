@@ -105,6 +105,7 @@ public class DataBaseManager {
                 } else {
                     int check = 0;
                     for (int j = 0; j < line.length; j++) {
+                        System.out.println (line[j] );
                         if (line[j].isEmpty ( )) {
                             badData.add (line);
                             check = 1;
