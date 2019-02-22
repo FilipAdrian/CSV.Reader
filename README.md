@@ -29,6 +29,6 @@ Another dependencies are included in _pom.xml_ file which will be auto-imported.
 1.Download the JDK which was mentioned above; <br/>
 2.Open the project with an IDE and specify in Main.class the url of your csv file
 (As an example of file are included in data folder: interview.csv) <br/>
-3.When project is built , just run the Main.class.After this you can see in console shoe information concerning database creation and if connection was established.
+3.When project is built , just run the Main.class.After this you can see in console information concerning database creation and if connection was established,also each record which is anlyzed is printed. 
 At the end you will see info which were written in log file.
  
